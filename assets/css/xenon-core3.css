@@ -929,6 +929,7 @@ body {
 	*/
     padding: 6px 14px 0;
     border-bottom: 1px solid #4b4d4f;
+    height: 66px;
 }
 
 .sidebar-menu .logo-env .logo {
@@ -1252,6 +1253,7 @@ span.title {
     .sidebar-menu.collapsed .logo-env {
         padding: 13px 0 7px;
         overflow: hidden;
+        height: 66px;
     }
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
