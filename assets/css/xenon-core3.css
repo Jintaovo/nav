@@ -1023,7 +1023,7 @@ a.logo-expanded {
 
 .sidebar-menu .main-menu a:hover {
     color: #fff;
-    background-color: #000000cc;
+    background-color: #00000066;
     transition: .3s
 }
 .sidebar-menu .main-menu a:hover:after {
