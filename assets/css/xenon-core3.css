@@ -930,6 +930,7 @@ body {
     padding: 6px 14px 0;
     border-bottom: 1px solid #4b4d4f;
     height: 66px;
+    background-color: #000000cc;
 }
 
 .sidebar-menu .logo-env .logo {
@@ -1034,9 +1035,15 @@ a.logo-expanded {
 }
 .sidebar-menu .main-menu li.active>a {
     color: #fff;
-    background-color: #0000002b;
+    background-color: #00000066;
 }
-
+.sidebar-menu .main-menu a:active:after {
+    content: " ";
+    border-left: 3px solid;
+    height: 21px;
+    position: absolute;
+    left: 0;
+}
 .sidebar-menu .main-menu li.has-sub>a:before {
     position: relative;
     display: inline-block;
