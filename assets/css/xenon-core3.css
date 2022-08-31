@@ -1022,10 +1022,16 @@ a.logo-expanded {
 
 .sidebar-menu .main-menu a:hover {
     color: #fff;
-    background-color: #00000026;
-
+    background-color: #000000cc;
+    transition: .3s
 }
-
+.sidebar-menu .main-menu a:hover:after {
+    content: " ";
+    border-left: 3px solid;
+    height: 21px;
+    position: absolute;
+    left: 0;
+}
 .sidebar-menu .main-menu li.active>a {
     color: #fff;
     background-color: #0000002b;
@@ -2308,8 +2314,8 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 
 .user-info-navbar {
     /* background-color: #ffffffeb; */
-    background-color: rgb(255 255 255 / 10%);
-    backdrop-filter: blur(25px);
+    background-color: rgb(255 255 255 / 50%);
+    backdrop-filter: blur(20px);
     height: 66px;
     overflow: hidden;
     min-height: 0;
