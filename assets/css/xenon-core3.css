@@ -1022,7 +1022,7 @@ a.logo-expanded {
 
 .sidebar-menu .main-menu a:hover {
     color: #fff;
-    background-color: #00000066;
+    background-color: #00000036;
     transition: .3s
 }
 .sidebar-menu .main-menu a:hover:after {
@@ -1034,9 +1034,9 @@ a.logo-expanded {
 }
 .sidebar-menu .main-menu li.active>a {
     color: #fff;
-    background-color: #00000066;
+    background-color: #00000036;
 }
-.sidebar-menu .main-menu a:active:after {
+.sidebar-menu .main-menu li.active>a:after {
     content: " ";
     border-left: 3px solid;
     height: 21px;
@@ -1060,6 +1060,9 @@ a.logo-expanded {
     -moz-transition: all 150ms ease-in-out;
     -o-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out
+}
+[class*=" linecons-"]:before, [class^=linecons-]:before{
+    margin-right: 8px;
 }
 
 .sidebar-menu .main-menu li.has-sub.opened>a:before,
